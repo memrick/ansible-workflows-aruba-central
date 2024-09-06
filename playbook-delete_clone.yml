@@ -1,0 +1,14 @@
+---
+-  hosts: all
+   collections:
+     - arubanetworks.aruba_central
+   tasks:
+    - name: Delete a group
+      central_groups:
+        action: delete
+        group_name: new-clone-group
+    - name: Get all the UI and Template Groups on Central
+      central_groups:
+        action: get_groups
+        limit: 20
+        offset: 0

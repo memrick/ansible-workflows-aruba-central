@@ -1,0 +1,13 @@
+---
+-  hosts: all
+   collections:
+     - arubanetworks.aruba_central
+   tasks:
+    - name: Get group name to which a device belongs
+      central_devices:
+        action: get_device_group
+        device_serial: VNQ7KZD965
+    - name: Get the last known running configuration of a device
+      central_devices:
+        action: get_running_config
+        device_serial: VNQ7KZD965

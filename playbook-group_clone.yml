@@ -1,0 +1,15 @@
+---
+-  hosts: all
+   collections:
+     - arubanetworks.aruba_central
+   tasks:
+    - name: Clone an existing group
+      central_groups:
+        action: clone
+        group_name: new-clone-group
+        clone_from_group: Monitor-Only-SW
+    - name: Get all the UI and Template Groups on Central
+      central_groups:
+        action: get_groups
+        limit: 20
+        offset: 0

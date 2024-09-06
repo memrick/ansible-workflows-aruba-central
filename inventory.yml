@@ -5,4 +5,4 @@ all:
       ansible_connection: httpapi
       ansible_network_os: arubanetworks.aruba_central.aruba_central
       ansible_httpapi_use_ssl: True
-      ansible_httpapi_central_access_token: 2FTY6Rj1bpiRa3NVIu8sA4XtcFmWqKcF
+      ansible_httpapi_central_access_token: replace-with-your-access-token

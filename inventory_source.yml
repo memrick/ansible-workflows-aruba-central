@@ -1,7 +1,7 @@
-access_token: X27QbJx3jNuQwEAJ826y9Z1g5WXQ2zcK
+access_token: replace-with-your-access-token
 api_gateway: apigw-uswest4.central.arubanetworks.com
-client_id: tsq84Lg27lKRF5Gk10AU66Koa0pLoZjQ
-client_secret: FC55GXScu9wlTIuoafufcBsOT2EkxyCg
+client_id: replace-with-your-client-id
+client_secret: replace-with-your-client-secret
 host: central
 plugin: central_inventory
-refresh_token: wJKOdtVfm3vnVR8aCTQ8G6hl2tY0kQaM
+refresh_token: replace-with-your-refresh-token
